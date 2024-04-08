@@ -1,7 +1,8 @@
+import React from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Message from "./Message";
 
-export default function Messages(props: {
+export default React.memo(function Messages(props: {
   messages: { role: string; content: string }[];
 }) {
   const { messages } = props;
@@ -12,4 +13,4 @@ export default function Messages(props: {
       ))}
     </ScrollArea>
   );
-}
+});

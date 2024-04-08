@@ -2,7 +2,6 @@
 import { Sidebar } from "@/components/Sidebar";
 import Messages from "./Messages";
 import MessageInput from "./MessageInput";
-import { useState } from "react";
 import { useChat } from "ai/react";
 
 export default function Chat() {
