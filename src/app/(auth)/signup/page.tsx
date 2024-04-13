@@ -26,7 +26,7 @@ export default function Signup() {
             </p>
           </div>
           <AuthForm type="signup" />
-          <p className="px-8 text-center text-sm text-muted-foreground">
+          {/* <p className="px-8 text-center text-sm text-muted-foreground">
             By clicking continue, you agree to our{" "}
             <Link
               href="/terms"
@@ -42,7 +42,7 @@ export default function Signup() {
               Privacy Policy
             </Link>
             .
-          </p>
+          </p> */}
         </div>
       </div>
     </>
